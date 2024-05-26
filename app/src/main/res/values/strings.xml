@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Crown Academy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_text">Dalam dunia digital yang semakin berkembang, istilah UI (User Interface) dan UX (User Experience) semakin sering terdengar. Kedua konsep ini adalah komponen utama dalam desain produk digital yang menentukan bagaimana pengguna berinteraksi dan merasakan sebuah aplikasi atau situs web. Modul pertama ini akan memberikan pemahaman mendalam tentang dasar-dasar UI dan UX, serta pentingnya kedua konsep ini dalam menciptakan produk digital yang sukses.
+
+User Interface (UI) atau Antarmuka Pengguna adalah aspek visual dari sebuah produk digital. UI mencakup semua elemen yang dapat dilihat dan disentuh oleh pengguna, seperti tombol, ikon, menu, warna, tipografi, dan tata letak halaman. Tujuan utama UI adalah untuk menciptakan antarmuka yang intuitif dan menarik secara visual sehingga pengguna dapat dengan mudah menavigasi dan berinteraksi dengan produk. Desain UI yang baik harus memperhatikan konsistensi, estetika, keterbacaan, dan aksesibilitas.
+
+User Experience (UX) atau Pengalaman Pengguna adalah keseluruhan pengalaman yang dirasakan oleh pengguna saat berinteraksi dengan sebuah produk digital. UX mencakup berbagai aspek seperti kemudahan penggunaan, kepuasan, efisiensi, dan kenyamanan. Desain UX yang baik memastikan bahwa pengguna dapat mencapai tujuan mereka dengan mudah dan merasa puas dengan pengalaman tersebut. UX juga mempertimbangkan alur interaksi, feedback pengguna, dan emosi yang dirasakan selama menggunakan produk.
+
+Meskipun UI dan UX sering disebutkan bersamaan, keduanya memiliki peran yang berbeda dalam desain produk digital. UI berfokus pada tampilan visual dan elemen interaktif, sementara UX lebih berkaitan dengan perasaan dan pengalaman keseluruhan pengguna. Keduanya saling melengkapi dan sama-sama penting dalam menciptakan produk yang sukses dan memuaskan.
+
+Desain UI dan UX yang baik adalah kunci keberhasilan produk digital. UI yang menarik dan mudah digunakan dapat menarik perhatian pengguna, sementara UX yang baik memastikan pengguna tetap terlibat dan puas. Produk dengan UI dan UX yang buruk dapat menyebabkan frustrasi, kebingungan, dan akhirnya membuat pengguna meninggalkan produk tersebut. Oleh karena itu, memahami dan mengimplementasikan prinsip-prinsip UI dan UX yang baik sangatlah penting bagi setiap desainer.
+    </string>
+</resources>
