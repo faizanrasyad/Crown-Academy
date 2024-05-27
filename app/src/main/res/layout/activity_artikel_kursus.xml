@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ArtikelKursus">
+    tools:context=".ArtikelKursus"
+    android:background="@color/white">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -29,7 +30,8 @@
                     android:orientation="vertical"
                     android:gravity="center_vertical"
                     android:paddingVertical="16dp"
-                    android:paddingHorizontal="16dp">
+                    android:paddingHorizontal="16dp"
+                    android:background="@color/white">
 
                     <RelativeLayout
                         android:layout_width="match_parent"

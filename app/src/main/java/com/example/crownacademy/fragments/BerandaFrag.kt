@@ -68,6 +68,12 @@ class BerandaFrag : Fragment() {
         rvKursus.smoothScrollBy(10, 0)
 
         binding.apply {
+            val nama : String = data.namaUser.split('@')[0]
+            if (nama == ""){
+                tvNama.text = "Pengguna"
+            }else{
+                tvNama.text = nama
+            }
             btnLihatSemuaKursus.setOnClickListener {
                 (activity as MainActivity).binding.bottomNavBar.selectedItemId = R.id.kursus
             }

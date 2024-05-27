@@ -9,6 +9,8 @@ import com.example.crownacademy.models.ModulModel
 
 object data {
 
+    var namaUser : String = ""
+
     var titleSelectedKursus : String = ""
     lateinit var selectedModul : ModulModel
 

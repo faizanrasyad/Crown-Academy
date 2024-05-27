@@ -23,14 +23,14 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ellipse2"
+        android:src="@drawable/ellipse3"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ellipse3"
+        android:src="@drawable/ellipse2"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -46,9 +46,8 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_marginTop="288dp"
-        android:background="@drawable/rectangle"
+        android:background="@drawable/rectangle6"
         tools:ignore="MissingConstraints" />
-
 
     <TextView
         android:id="@+id/textView2"
@@ -56,8 +55,8 @@
         android:layout_height="wrap_content"
         android:paddingLeft="28dp"
         android:layout_marginTop="348dp"
-        android:fontFamily="@font/robotobold"
-        android:text="@string/masukkan_data_diri"
+        android:text="Masukkan data diri!"
+        android:textStyle="bold"
         android:textColor="@color/black"
         android:textSize="30sp"
         app:layout_constraintTop_toTopOf="parent"
@@ -92,94 +91,97 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="27dp"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@+id/textView2">
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:paddingHorizontal="16dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/robotoregular"
-            android:paddingLeft="28dp"
-            android:text="@string/nama"
-            android:textColor="@color/black"
+            android:text="Nama"
+            android:textColor="@color/gray"
             android:textSize="20sp" />
 
         <EditText
+            android:id="@+id/edtNama"
             android:layout_width="match_parent"
             android:layout_height="44dp"
-            android:layout_marginHorizontal="27dp"
-            android:background="@drawable/custominput"
-            android:paddingLeft="22dp" />
+            android:background="@drawable/edit_text_bg"
+            android:textColor="@color/black"
+            android:paddingHorizontal="20dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/robotoregular"
-            android:paddingLeft="28dp"
             android:paddingTop="14dp"
-            android:text="@string/email"
-            android:textColor="@color/black"
+            android:text="Email"
+            android:textColor="@color/gray"
             android:textSize="20sp" />
 
         <EditText
+            android:id="@id/edtEmail"
             android:layout_width="match_parent"
             android:layout_height="44dp"
-            android:layout_marginHorizontal="27dp"
-            android:background="@drawable/custominput"
-            android:paddingLeft="22dp" />
+            android:background="@drawable/edit_text_bg"
+            android:textColor="@color/black"
+            android:paddingHorizontal="20dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/robotoregular"
-            android:paddingLeft="28dp"
             android:paddingTop="25dp"
-            android:text="@string/password"
-            android:textColor="@color/black"
+            android:text="Password"
+            android:textColor="@color/gray"
             android:textSize="20sp" />
 
         <EditText
+            android:id="@+id/edtPassword"
             android:layout_width="match_parent"
             android:layout_height="44dp"
-            android:layout_marginHorizontal="27dp"
             android:layout_marginBottom="33dp"
-            android:background="@drawable/custominput"
-            android:paddingLeft="22dp" />
+            android:background="@drawable/edit_text_bg"
+            android:textColor="@color/black"
+            android:paddingHorizontal="20dp"
+            android:inputType="textPassword"/>
 
         <Button
-            android:id="@+id/buttondaftar"
+            android:id="@+id/btnDaftar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="123dp"
-            android:fontFamily="@font/robotoregular"
-            android:text="@string/daftar"
-            android:textSize="20sp" />
+            android:text="Daftar"
+            android:backgroundTint="@color/yellow"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginBottom="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sudah punya akun?"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginRight="4dp"/>
+
+            <TextView
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masuk Disini"
+                android:textSize="15sp"
+                android:textColor="@color/yellow"/>
+        </LinearLayout>
+
+
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/robotoregular"
-        android:text="Sudah punya akun?"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        android:paddingStart="95dp"
-        tools:ignore="MissingConstraints"
-        android:layout_marginTop="56dp"/>
 
-    <TextView
-        android:id="@+id/masuk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/masuk_disini"
-        android:fontFamily="@font/robotoregular"
-        android:textSize="15sp"
-        android:textColor="@color/orange"
-        app:layout_constraintTop_toBottomOf="@id/linearLayout2"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="95dp"
-        android:layout_marginTop="56dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

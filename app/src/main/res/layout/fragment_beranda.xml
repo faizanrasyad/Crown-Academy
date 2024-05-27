@@ -4,15 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.BerandaFrag">
+    tools:context=".fragments.BerandaFrag"
+    android:background="@drawable/background_main_page">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingHorizontal="16dp"
-        android:paddingTop="16dp"
-        android:background="@color/white">
+        android:paddingTop="16dp">
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -27,14 +27,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:cardCornerRadius="12dp"
-                    android:layout_marginBottom="16dp">
+                    android:layout_marginBottom="16dp"
+                    android:background="@color/light_gray">
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
                         android:paddingHorizontal="16dp"
                         android:paddingVertical="8dp"
-                        android:gravity="center_vertical">
+                        android:gravity="center_vertical"
+                        android:background="@color/white">
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
